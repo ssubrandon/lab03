@@ -1,4 +1,0 @@
-Verify the effect of creating a replicaset in the pods that are running. Also, what is the effect of scaling the service in the output of your service (e.i. when you curl your service’s External IP Address)? Explain why you observe this behavior.
-
-Answer:
-When you curl the service's external IP address multiple times it appears that the requests get sent to one of the three different hosts. 
